@@ -14,3 +14,62 @@ a {
 * {
   box-sizing: border-box;
 }
+
+p{
+  margin: 0;
+}
+
+.mf-date-picker {
+  padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.rc-time-picker {
+  width: 100%;
+}
+
+.rc-time-picker-input {
+  padding-top: 1.2rem !important;
+    padding-bottom: 1.2rem !important;
+}
+
+.rc-time-picker-clear {
+  top: 5px !important;
+}
+
+.line {
+  display: block;
+    min-width: 100%;
+    border-bottom: 1px solid lightgray;
+}
+
+.detail-bar-container {
+  padding-left: 3.5rem;
+  position: absolute; 
+  z-index: 100;
+  width: 100%;
+}
+
+.detail-bar {
+  transition: ease-in-out;
+  transition-duration: 250ms;
+  cursor: pointer;
+  border: 1px solid lightgreen;
+  border-left-width: 10px;
+  border-radius: 10px;
+  background-color: rgba(144, 238, 144, 0.4);
+  padding: 1rem; 
+  min-height: 4rem;
+}
+
+.detail-bar:hover {
+    background-color: rgba(144, 238, 144, 0.6);
+}
+
+.button-trash-modalform {
+  float: left;
+}
